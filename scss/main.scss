@@ -7,7 +7,7 @@
 body{
     color: black;
     font-family: "Cinzel";
-    background-image: linear-gradient(to left, green, white, green);
+    background: grey;
     height: auto;
     width: 100%;
 }
@@ -78,10 +78,6 @@ header li a:hover{
     transition: transform 0.2s ease-in;
     transform: translateY(-15px);
     box-shadow: 0 7px 7px rgba(0, 0, 0, 0.5);
-}
-
-.sidenav{
-    background-image: linear-gradient(to left, green, white, green);
 }
 
 .sidenav-trigger{

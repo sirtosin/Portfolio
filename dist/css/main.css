@@ -8,8 +8,7 @@
 body {
   color: black;
   font-family: "Cinzel";
-  background-image: -webkit-gradient(linear, right top, left top, from(green), color-stop(white), to(green));
-  background-image: linear-gradient(to left, green, white, green);
+  background: grey;
   height: auto;
   width: 100%;
 }
@@ -84,11 +83,6 @@ header li a:hover {
           transform: translateY(-15px);
   -webkit-box-shadow: 0 7px 7px rgba(0, 0, 0, 0.5);
           box-shadow: 0 7px 7px rgba(0, 0, 0, 0.5);
-}
-
-.sidenav {
-  background-image: -webkit-gradient(linear, right top, left top, from(green), color-stop(white), to(green));
-  background-image: linear-gradient(to left, green, white, green);
 }
 
 .sidenav-trigger {
