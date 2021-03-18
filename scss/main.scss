@@ -54,6 +54,13 @@ header li a:hover{
     font-family: "Cinzel";
 }
 
+.intro .intro-title{
+    display: flex;
+    justify-content: center;
+    min-height: 80vh;
+    align-items: center;
+}
+
 
 .intro-title .letter {
     display: inline-block;
